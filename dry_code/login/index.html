@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NameofWebsite
+    </title>
+
+    <!-- Font Icon -->
+    <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+    <div class="main">
+        <div>
+            <div class="booking-content">
+                <div class="booking-image">
+                   <!--<img class="booking-img" src="img.png" alt="Booking Image">--> 
+                </div>
+                <div class="booking-form">
+                    <form id="booking-form">
+                        <h2>Registration</h2>
+                        <div class="form-group form-input">
+                            <input type="text" name="name" id="name" value="" required/>
+                            <label for="name" class="form-label">Your name</label>
+                        </div>
+                        <div class="row">
+                        <div class="form-group form-input">
+                            <input type="text" name="email" id="email" value="" required />
+                            <label for="email" class="form-label">Your Email ID</label>
+                        </div>
+                          </div>
+                        <div class="form-group form-input">
+                            <input type="number" name="phone" id="phone" value="" required />
+                            <label for="phone" class="form-label">Your phone number</label>
+                        </div>
+                        <div class="form-group form-input">
+                            <input type="text" name="password" id="password" value="" required />
+                            <label for="password" class="form-label">Setup your password</label>
+                        </div>
+                        <div class="form-group form-input">
+                            <input type="date" name="dob" id="dob" value="" required />
+                            <label for="dob" class="form-label">Your Date of Birth</label>
+                        </div>
+                        <div class="form-group form-input">
+                            <input type="url" name="ldin" id="ldin" value="" required />
+                            <label for="ldin" class="form-label">Your linkedin url</label>
+                        </div>
+                        <div class="form-group form-input">
+                            <input type="url" name="github" id="github" value="" required />
+                            <label for="github" class="form-label">Your Github url</label>
+                        </div>
+                        <div class="form-group form-input">
+                            <input type="url" name="gfg" id="gfg" value="" required />
+                            <label for="gfg" class="form-label">Your GeeksForGeeks url</label>
+                        </div>
+                        <div class="form-group">
+                            <div class="select-list">
+                                <select name="food" id="food" required>
+                                    <option value="">Select your Club</option>
+                                    <option value="gfgclub">GeeksForGeeks PCCOE</option>
+                                    <option value="acmclub">ACM PCCOE</option>
+                                    <option value="gdscclub">GDSC PCCOE</option>
+                                    <option value="gdscclub">None</option>
+                                </select>
+                            </div>
+                        </div>
+                        <!--if club selected then following should be visible-->
+                        <div class="form-group form-input">
+                            <input type="text" name="position" id="position" value="" required />
+                            <label for="position" class="form-label">Your Position in the club</label>
+                        </div>
+                        <div class="form-submit">
+                            <input type="submit" value="Register Now" class="submit" id="submit" name="submit" />
+                            <a href="#" class="vertify-booking">Already a user? Login here</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+    <!-- JS -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
